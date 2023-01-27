@@ -1,0 +1,75 @@
+.App {
+  background-color: #eee;
+  width: 80%;
+  padding: 10%;
+  height: 100vh;
+  border: 1px solid #000;
+  position: relative;
+}
+/* NavCSS */
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #000; */
+}
+.Nav a {
+  font-weight: bold;
+  font-size: 3em;
+}
+.list {
+  /* border: 1px solid green; */
+}
+
+.list a {
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  /* border: 1px solid red; */
+  padding: 1em;
+}
+
+/* BannerCSS */
+.banner {
+  padding: 3em;
+  position: relative;
+  /* border: 1px solid #000; */
+}
+
+.banner .banner_first {
+  color: rgb(68, 216, 68);
+  padding-left: 1em;
+}
+
+.banner .banner_second {
+  color: rgb(243, 148, 70);
+  padding-left: 2em;
+}
+
+.banner .banner_third {
+  color: rgb(117, 16, 16);
+  padding-left: 4em;
+}
+
+.banner .banner_fourth {
+  color: rgb(89, 89, 233);
+  padding-left: 8em;
+}
+
+.banner .banner_fifth {
+  color: rgb(187, 62, 204);
+  padding-left: 10em;
+}
+
+.banner .banner_sixth {
+  color: rgb(219, 89, 89);
+  padding-left: 15em;
+}
+
+.banner .banner_img img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 20%;
+  left: 70%;
+}
