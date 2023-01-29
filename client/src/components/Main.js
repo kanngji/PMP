@@ -47,7 +47,48 @@ export default function Main() {
             </div>
           </scetion>
         </div>
-        <div className="right_side"></div>
+        <div className="right_side">
+          <div className="cheer">
+            <h2>
+              중요한 것은 목표를 이루는 것이 아니라 그 과정에서 무엇을 배우며
+              얼마나 성장하느냐이다.
+            </h2>
+          </div>
+          <scetion>
+            <div className="card">
+              <img src={data_img}></img>
+              <div className="content">
+                <span className="title">Data</span>
+                <span>
+                  프로그램을 운용할 수 있는 형태로 기호화·숫자화한 자료
+                </span>
+              </div>
+            </div>
+            <div className="card">
+              <img src={network_img}></img>
+              <div className="content">
+                <span className="title">네트워크</span>
+                <span>
+                  네트워크는 둘 이상의 컴퓨터와 이들을 연결하는 링크의
+                  조합입니다. 물리적 네트워크는 네트워크를 구성하는
+                  하드웨어(어댑터, 케이블 및 전화선과 같은 장비)입니다.
+                  소프트웨어 및 개념 모델이 논리적 네트워크를 형성합니다.
+                </span>
+              </div>
+            </div>
+            <div className="card">
+              <img src={devops_img}></img>
+              <div className="content">
+                <span className="title">데브옵스</span>
+                <span>
+                  데브옵스는 소프트웨어의 개발과 운영의 합성어로서, 소프트웨어
+                  개발자와 정보기술 전문가 간의 소통, 협업 및 통합을 강조하는
+                  개발 환경이나 문화를 말합니다.
+                </span>
+              </div>
+            </div>
+          </scetion>
+        </div>
       </div>
     </>
   );

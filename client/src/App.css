@@ -75,17 +75,34 @@
 }
 
 /* MainCSS */
+
 .main_container {
   width: 100%;
   /* border: 1px solid #000; */
   height: 150vh;
   margin-top: 30%;
+  display: flex;
 }
 .main_container .left_side {
   width: 50%;
   /* border: 1px solid #000; */
 }
+.main_container .right_side {
+  width: 50%;
+  /* border: 1px solid #000; */
+}
+.main_container .right_side .cheer {
+  background-color: #eee;
+  width: 100%;
+  height: 12%;
+  border-radius: 5px;
+}
 .main_container .left_side .card .content .title {
+  text-align: center;
+  font-weight: bold;
+  margin: 1em;
+}
+.main_container .right_side .card .content .title {
   text-align: center;
   font-weight: bold;
   margin: 1em;
@@ -96,8 +113,20 @@
   height: 200px;
   border-radius: 5px;
 }
+.main_container .right_side .card img {
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+}
 
 .main_container .left_side .card .content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 1em;
+  /* border: 1px solid #000; */
+}
+.main_container .right_side .card .content {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -113,4 +142,11 @@
 .letters {
   text-align: center;
   /* border: 1px solid #000; */
+}
+
+.pmp {
+  margin-top: 2em;
+  text-align: center;
+  font-weight: bold;
+  /* margin: 0 auto; */
 }

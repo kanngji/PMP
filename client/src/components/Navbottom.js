@@ -9,6 +9,7 @@ export default function Navbottom() {
         이직자들의 과제 제보부탁드립니다 <br />
         자세한 내용은 홈페이지 상단의 <b>개발자에게</b> 메뉴를 클릭해 주세요
       </div>
+      <div className="pmp">PMP: Practice Makes Perfect</div>
     </>
   );
 }
