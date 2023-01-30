@@ -1,10 +1,19 @@
 .App {
   background-color: #eee;
-  width: 80%;
+  width: 100%;
   padding: 10%;
   height: 100%;
   /* border: 1px solid #000; */
   position: relative;
+}
+
+.list a {
+  cursor: pointer;
+}
+
+.list a:hover {
+  border-bottom: 2px solid #000;
+  width: 80%;
 }
 /* NavCSS */
 .Nav {
@@ -109,12 +118,12 @@
 }
 
 .main_container .left_side .card img {
-  width: 90%;
+  width: 100%;
   height: 200px;
   border-radius: 5px;
 }
 .main_container .right_side .card img {
-  width: 90%;
+  width: 100%;
   height: 200px;
   border-radius: 5px;
 }

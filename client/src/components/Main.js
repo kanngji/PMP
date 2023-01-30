@@ -11,7 +11,7 @@ export default function Main() {
     <>
       <div className="main_container">
         <div className="left_side">
-          <scetion>
+          <section>
             <div className="card">
               <img src={it_img}></img>
               <div className="content">
@@ -45,16 +45,16 @@ export default function Main() {
                 </span>
               </div>
             </div>
-          </scetion>
+          </section>
         </div>
         <div className="right_side">
           <div className="cheer">
-            <h2>
+            <h3>
               중요한 것은 목표를 이루는 것이 아니라 그 과정에서 무엇을 배우며
               얼마나 성장하느냐이다.
-            </h2>
+            </h3>
           </div>
-          <scetion>
+          <section>
             <div className="card">
               <img src={data_img}></img>
               <div className="content">
@@ -87,7 +87,7 @@ export default function Main() {
                 </span>
               </div>
             </div>
-          </scetion>
+          </section>
         </div>
       </div>
     </>
