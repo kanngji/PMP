@@ -159,3 +159,42 @@
   font-weight: bold;
   /* margin: 0 auto; */
 }
+
+/* Mailform */
+.container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 8em;
+}
+.container .card {
+  /* position: absolute; */
+  width: 80%;
+  /* object-fit: fill; */
+  /* border: 1px solid #000; */
+}
+
+.container .description {
+  /* border: 1px solid #000; */
+  margin: 5em;
+  width: 60%;
+  height: 100%;
+  right: 0px;
+}
+
+.container .description h3 {
+  margin-top: 1em;
+}
+
+.container .description h4 {
+  margin-top: 1em;
+}
+.container .description h5 {
+  margin-top: 1em;
+}
+
+.container .description h6 {
+  margin-top: 2em;
+  color: red;
+}
