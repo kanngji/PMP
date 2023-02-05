@@ -9,8 +9,9 @@ export default function Nav() {
         <a>연습 makes 완벽</a>
         <div className="list">
           <a onClick={() => navigate("/")}>홈</a>
-          <a onClick={() => navigate("list")}>사전과제</a>
-          <a onClick={() => navigate("developer")}>개발자에게</a>
+          <a onClick={() => navigate("/list")}>사전과제</a>
+          <a onClick={() => navigate("/developer")}>개발자에게</a>
+          <a onClick={() => navigate("/login")}>관리자</a>
         </div>
       </div>
     </>

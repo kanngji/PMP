@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Developer from "./pages/Developer";
 import TaskList from "./pages/TaskList";
+import Login from "./pages/Login";
+import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +18,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/developer" element={<Developer />} />
         <Route path="/list" element={<TaskList />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

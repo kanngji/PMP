@@ -198,3 +198,16 @@
   margin-top: 2em;
   color: red;
 }
+
+/* Login */
+.loginForm {
+  width: 100%;
+  /* border: 1px solid #000; */
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.loginForm .container {
+  justify-content: center;
+}
