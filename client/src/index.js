@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Developer from "./pages/Developer";
 import TaskList from "./pages/TaskList";
 import Login from "./pages/Login";
-import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
