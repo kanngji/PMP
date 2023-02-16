@@ -38,6 +38,16 @@
   padding: 1em;
 }
 
+/* 크롤링 css */
+.crawling {
+  /* border: 1px solid #000; */
+  padding-top: 5em;
+}
+.crawling .news_title {
+  margin: 0.5em;
+  color: rgb(63, 59, 59);
+}
+
 /* BannerCSS */
 .banner {
   padding-top: 10%;
@@ -210,4 +220,7 @@
 
 .loginForm .container {
   justify-content: center;
+}
+
+@media (max-width: 768px) {
 }
